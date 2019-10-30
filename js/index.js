@@ -48,8 +48,9 @@ window.addEventListener('resize', () =>
 );
 
 // scroll event
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', (e) => {
     console.log("This page is been scrolled")
+
 });
 
 
